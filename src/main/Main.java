@@ -6,12 +6,14 @@
  * */
 package main;
 
-import java.util.Scanner;
+import definitions.transport.FourWheeler;
+import definitions.transport.Vehicle;
 
 public class Main {
-    // Main IS A type of Scanner, true?
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        scanner.close();
+        Vehicle myVehicle = new Vehicle();
+        myVehicle.start(); // Vehicle has started.
+        FourWheeler myFourWheeler = new FourWheeler();
+        myFourWheeler.start("My Four Wheeler");
     }
 }

@@ -8,8 +8,11 @@ package definitions.transport;
 
 // This will be the subclass (child class) for our example.
 public class FourWheeler extends Vehicle {
-    public void startFourWheeler() {
-        start();
+    // Method Overloading
+    // the start method is overloaded
+    // the start() method is an overloaded method.
+    public void start(String fourWheelerName) {
+        System.out.println(fourWheelerName + " has started.");
     }
 }
 

@@ -21,3 +21,7 @@ We inherit properties from more than one parent class.
 ### Hybrid Inheritance.
 Required an Abstract Class or an Interface.
  
+## Types of Polymorphism
+
+### Method Overloading
+- Changing the behaviour of methods on the basis of inputs.

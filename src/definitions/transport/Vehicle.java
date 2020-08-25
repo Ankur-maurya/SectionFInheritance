@@ -13,6 +13,10 @@ public class Vehicle {
         System.out.println("Vehicle has started.");
     }
 
+    public void start(int time) {
+        System.out.println("Vehicle started at " + time);
+    }
+
 }
 
 // Vehicle -> FourWheeler
