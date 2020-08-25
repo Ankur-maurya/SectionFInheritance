@@ -14,6 +14,6 @@ public class Main {
         Vehicle myVehicle = new Vehicle();
         myVehicle.start(); // Vehicle has started.
         FourWheeler myFourWheeler = new FourWheeler();
-        myFourWheeler.start("My Four Wheeler");
+        myFourWheeler.start();
     }
 }

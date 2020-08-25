@@ -25,3 +25,8 @@ Required an Abstract Class or an Interface.
 
 ### Method Overloading
 - Changing the behaviour of methods on the basis of inputs.
+- It can be done either via changing the number of parameters of a method or changing the type of the parameters.
+
+### Method Overriding
+- Changing the behaviour of a method on the basis of the objects.
+- The signature of the method that you want to override, should be exactly same!
