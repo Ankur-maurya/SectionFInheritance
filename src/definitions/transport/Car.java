@@ -6,5 +6,10 @@
  * */
 package definitions.transport;
 
-public class Car {
+public class Car extends Vehicle {
+
 }
+
+// Car IS A type of (Vehicle/FourWheeler) ?
+// Car IS A type of Vehicle. CORRECT!
+// Car IS A type of FourWheeler. CORRECT!
