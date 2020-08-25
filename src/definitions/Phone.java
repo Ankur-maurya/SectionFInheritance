@@ -17,4 +17,5 @@ public class Phone {
     public void setContactNumber(long contactNumber) {
         this.contactNumber = contactNumber;
     }
+    // ... constructor, toString(), equals(), hashCode()
 }
