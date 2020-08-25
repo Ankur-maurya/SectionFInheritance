@@ -43,7 +43,7 @@ public class InheritanceDemo {
     // ex- Google Chrome, Microsoft Windows, Microsoft Office
 
     // Re-use of code/programs/software:
-
+    // To modify the current version of the software, without starting from the beginning.
 
     // 3. Observe the `extends` keyword.
     // 4. What is a `super` class and what is `sub` class.
