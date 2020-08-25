@@ -14,3 +14,6 @@ public class Vehicle {
     }
 
 }
+
+// Vehicle -> FourWheeler
+// Vehicle -> Car

@@ -7,7 +7,9 @@
 package definitions.transport;
 
 public class Car extends Vehicle {
-
+    public void startCar() {
+        start(); // start() method is defined inside the Vehicle class.
+    }
 }
 
 // Car IS A type of (Vehicle/FourWheeler) ?
