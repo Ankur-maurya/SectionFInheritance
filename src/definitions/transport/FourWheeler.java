@@ -7,6 +7,8 @@
 package definitions.transport;
 
 // This will be the subclass (child class) for our example.
-public class FourWheeler {
+public class FourWheeler extends Vehicle {
 
 }
+
+// FourWheeler IS A type of Vehicle.
