@@ -12,3 +12,13 @@ public class FourWheeler extends Vehicle {
 }
 
 // FourWheeler IS A type of Vehicle.
+// FourWheeler extends Vehicle
+// <subclass>  extends <superclass>
+// Vehicle -> (is inherited by) FourWheeler
+// The child class is inheriting from a single parent,
+// this is Simple Inheritance.
+// superclass -> subclass
+
+// Vehicle class is the super class of FourWheeler class.
+// FourWheeler class is the sub class of Vehicle class.
+
