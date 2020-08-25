@@ -6,5 +6,11 @@
  * */
 package definitions.transport;
 
+// This will be the superclass (parent class) for our example.
 public class Vehicle {
+
+    public void start() {
+        System.out.println("Vehicle has started.");
+    }
+
 }
