@@ -21,8 +21,8 @@ public class MobilePhone extends Phone {
 
 // The MobilePhone class is inheriting the getContactNumber() method
 // from the Phone class.
-// The Phone class is the super class/parent class.
-// The MobilePhone class is the sub class/child class.
+// The Phone class is the super class/parent class of MobilePhone class.
+// The MobilePhone class is the sub class/child class of Phone class.
 
 // Two entities; every entity is a class,
 // first entity (class) : Phone.java class
