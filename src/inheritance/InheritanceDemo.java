@@ -25,7 +25,26 @@ public class InheritanceDemo {
     // Inheritance (verb) is the mechanism by which a class can acquire
     // properties(fields/variables) and methods of another class, related to it.
 
-    // 2. How to use Inheritance to re-use code/programs/software that is already developed and tested.
+    // 2. How to use Inheritance to re-use code/programs/software that is
+    // already developed and tested.
+
+    // There are two ways of using any software:
+    // 1. as an end-user (client/customer):
+    // download the software, and use it as is.
+    // 2. as a developer:
+    // we can observe and/or modify the actual source code according to our liking.
+
+    // Two types of such software that exists in the world:
+    // 1. Open Source Software:
+    // we can observe the source and we might be able to modify it.
+    // Ex - Linux kernel
+    // 2. Closed Source Software:
+    // cannot observe the source code, and cannot modify it.
+    // ex- Google Chrome, Microsoft Windows, Microsoft Office
+
+    // Re-use of code/programs/software:
+
+
     // 3. Observe the `extends` keyword.
     // 4. What is a `super` class and what is `sub` class.
     // 5. How we can access the members of the super class from a sub class.
