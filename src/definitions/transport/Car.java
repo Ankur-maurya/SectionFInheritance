@@ -6,7 +6,7 @@
  * */
 package definitions.transport;
 
-public class Car extends Vehicle {
+public class Car extends FourWheeler {
     public void startCar() {
         start(); // start() method is defined inside the Vehicle class.
     }
@@ -15,3 +15,10 @@ public class Car extends Vehicle {
 // Car IS A type of (Vehicle/FourWheeler) ?
 // Car IS A type of Vehicle. CORRECT!
 // Car IS A type of FourWheeler. CORRECT!
+
+// Vehicle -> FourWheeler -> Car
+// Vehicle class is the superclass of FourWheeler class.
+// FourWheeler class is the subclass of Vehicle class.
+// FourWheeler class is superclass of Car class.
+// Car class is the subclass of FourWheeler class.
+// Vehicle (grandparent), FourWheeler (parent), Car (child).

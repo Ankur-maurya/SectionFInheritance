@@ -8,7 +8,9 @@ package definitions.transport;
 
 // This will be the subclass (child class) for our example.
 public class FourWheeler extends Vehicle {
-
+    public void startFourWheeler() {
+        start();
+    }
 }
 
 // FourWheeler IS A type of Vehicle.
