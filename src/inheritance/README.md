@@ -35,6 +35,7 @@ Requires an Abstract Class or an Interface.
 1. public : class/method can be accessed anywhere in the project! 
 2. private : only inner classes can be private in Java, but they cannot be accessed
 outside the class they are declared in.
-3. protected
+3. protected : only inner members of a class can be protected, they can only be accessed
+by their child classes.
 4. <default>.
 

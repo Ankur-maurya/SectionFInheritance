@@ -14,13 +14,30 @@ package definitions.transport;
 // outer class
 public class Truck extends Vehicle {
 
+    protected void startTruck() {
+        System.out.println("Truck is starting...");
+    }
+
     // inner class
-    private class Engine {
+    protected class Engine {
 
     }
 
 }
-class DeliveryTruck {
+class DeliveryTruck extends Truck {
     // we can access the Truck class in the same file.
     private Truck myTruck;
+
+    public void startDeliveryTruck() {
+        startTruck();
+    }
 }
+
+
+
+
+
+
+
+
+
