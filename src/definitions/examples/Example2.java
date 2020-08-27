@@ -39,6 +39,11 @@ class C extends A {
         System.out.println("Class C");
     }
 }
+class D extends B {
+    public void methodD(int k) {
+        System.out.println("Class D");
+    }
+}
 
 
 
