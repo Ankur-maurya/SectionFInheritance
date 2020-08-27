@@ -19,7 +19,7 @@ and a single child class (subclass).
 We inherit properties from more than one parent class.
 
 ### Hybrid Inheritance.
-Required an Abstract Class or an Interface.
+Requires an Abstract Class or an Interface.
  
 ## Types of Polymorphism
 
@@ -30,3 +30,5 @@ Required an Abstract Class or an Interface.
 ### Method Overriding
 - Changing the behaviour of a method on the basis of the objects.
 - The signature of the method that you want to override, should be exactly same!
+
+## Use of Visibility Modifiers with Classes & Methods while using Inheritance
