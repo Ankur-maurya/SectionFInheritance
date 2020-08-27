@@ -19,6 +19,7 @@ class A {
     }
 }
 class B extends A {
+    @Override
     public void methodA(int x) {
         j = x * x;
         System.out.println("Class B : j = " + j);
@@ -27,8 +28,16 @@ class B extends A {
         System.out.println("Class B");
     }
 }
+// Hierarchical Inheritance
 class C extends A {
-
+    @Override
+    public void methodA(int k1) {
+        j = k1 * 5;
+        System.out.println("Class Cj = " + j);
+    }
+    public void methodC() {
+        System.out.println("Class C");
+    }
 }
 
 

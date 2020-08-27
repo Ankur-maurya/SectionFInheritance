@@ -7,7 +7,7 @@
 and a single child class (subclass).
 - The emphasis is on the number of parent classes, i.e there should be only one parent class.
 
-### Hierarchical Inheritance 
+### Hierarchical Inheritance (Hie-rar-chi-cal -> 4 syllables)
 - When there are more than 1 child classes, but only a single parent class.
 
 
