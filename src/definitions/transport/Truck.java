@@ -6,5 +6,5 @@
  * */
 package definitions.transport;
 
-public class Truck {
+public class Truck extends Vehicle {
 }
