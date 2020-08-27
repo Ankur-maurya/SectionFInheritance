@@ -8,19 +8,21 @@ package definitions.examples;
 
 public class Example2 {
     public static void main(String[] args) {
-
+        D objectD = new D();
+        objectD.methodD(5);
+        objectD.methodA(4);
     }
 }
 class A {
     int j = 0;
-    public void methodA(int k) {
+    public void methodA(int k) { // 1
         j = k;
         System.out.println("Class A : j = " + j);
     }
 }
 class B extends A {
     @Override
-    public void methodA(int x) {
+    public void methodA(int x) { // 2
         j = x * x;
         System.out.println("Class B : j = " + j);
     }
