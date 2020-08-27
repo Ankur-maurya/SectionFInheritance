@@ -12,5 +12,7 @@ public class Example1 {
     }
 }
 class DemoA {
-
+    public void displayA() {
+        System.out.println("Parent Class Method.");
+    }
 }
