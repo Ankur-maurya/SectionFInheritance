@@ -8,8 +8,13 @@ package definitions;
 
 import definitions.transport.Truck;
 
-public class MonsterTruck {
+public class MonsterTruck extends Truck {
     // we can access the Truck class
     // in a different class, even outside the package!
     private Truck myMonsterTruck;
+
+    public void startMonsterTruck() {
+        startTruck();
+    }
+
 }
