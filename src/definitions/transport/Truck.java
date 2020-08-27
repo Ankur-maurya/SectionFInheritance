@@ -12,9 +12,9 @@ package definitions.transport;
 // should be exactly the same!
 
 // outer class
-public class Truck extends Vehicle {
+class Truck extends Vehicle {
 
-    protected void startTruck() {
+    void startTruck() {
         System.out.println("Truck is starting...");
     }
 

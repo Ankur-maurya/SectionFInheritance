@@ -6,7 +6,11 @@
  * */
 package definitions.transport;
 
-public class CementTruck {
+public class CementTruck extends Truck {
     // we can access the Truck class in a different class, but in the same package.
     private Truck myCementTruck;
+
+    public void startCementTruck() {
+        startTruck();
+    }
 }

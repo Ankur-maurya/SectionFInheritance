@@ -6,15 +6,15 @@
  * */
 package definitions;
 
-import definitions.transport.Truck;
+//import definitions.transport.Truck;
 
-public class MonsterTruck extends Truck {
+public class MonsterTruck {
     // we can access the Truck class
     // in a different class, even outside the package!
-    private Truck myMonsterTruck;
+    // private Truck myMonsterTruck;
 
     public void startMonsterTruck() {
-        startTruck();
+        // startTruck();
     }
 
 }

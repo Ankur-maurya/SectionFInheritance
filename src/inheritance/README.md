@@ -37,5 +37,5 @@ Requires an Abstract Class or an Interface.
 outside the class they are declared in.
 3. protected : only inner members of a class can be protected, they can only be accessed
 by their child classes, even outside the package it is declared in.
-4. <default>.
+4. <default>. : 
 
