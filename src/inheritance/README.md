@@ -36,6 +36,6 @@ Requires an Abstract Class or an Interface.
 2. private : only inner classes can be private in Java, but they cannot be accessed
 outside the class they are declared in.
 3. protected : only inner members of a class can be protected, they can only be accessed
-by their child classes.
+by their child classes, even outside the package it is declared in.
 4. <default>.
 
