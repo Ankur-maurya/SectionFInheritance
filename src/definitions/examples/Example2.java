@@ -18,3 +18,21 @@ class A {
         System.out.println("j = " + j);
     }
 }
+class B extends A {
+    public void methodA(int x) {
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
