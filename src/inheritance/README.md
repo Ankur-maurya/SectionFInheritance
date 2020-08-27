@@ -33,7 +33,7 @@ Requires an Abstract Class or an Interface.
 
 ## Use of Visibility Modifiers with Classes & Methods while using Inheritance
 1. public : class/method can be accessed anywhere in the project! 
-2. private
+2. private : 
 3. protected
 4. <default>.
 
