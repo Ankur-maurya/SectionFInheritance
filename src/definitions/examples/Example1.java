@@ -16,3 +16,9 @@ class DemoA {
         System.out.println("Parent Class Method.");
     }
 }
+class DemoB extends DemoA {
+    @Override
+    public void displayA() { // Method Overriding
+        System.out.println("Child Class Method.");
+    }
+}
