@@ -26,4 +26,11 @@ class A2 {
         System.out.println("j = " + j + ", k = " + k);
     }
 
+    public int getJ() {
+        return j;
+    }
+
+    public int getK() {
+        return k;
+    }
 }
