@@ -36,4 +36,9 @@ class A2 {
 }
 class B2 extends A2 {
     int p;
+
+    void displayB() {
+        System.out.println("p = " + p);
+        System.out.println("m = " + m);
+    }
 }
