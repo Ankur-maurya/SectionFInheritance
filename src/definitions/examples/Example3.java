@@ -37,6 +37,11 @@ class C1 extends A1 {
         int division = x / y;
         return division;
     }
+
+    public int difference(int x, int y) {
+        int difference = x - y;
+        return difference;
+    }
 }
 
 
