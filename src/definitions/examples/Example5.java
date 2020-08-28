@@ -16,6 +16,9 @@ public class Example5 {
         objectB2.p = 5;
         objectB2.m = 6;
         objectB2.displayB();
+        objectB2.setValues(12, 15);
+        System.out.println("j = " + objectB2.getJ());
+        System.out.println("k = " + objectB2.getK());
     }
 }
 class A2 {
