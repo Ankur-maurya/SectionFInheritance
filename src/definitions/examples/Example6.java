@@ -10,6 +10,8 @@ public class Example6 {
     public static void main(String[] args) {
         Bike myBike = new Bike(1, "Passion Pro");
         myBike.displayBikeInformation();
+        SuperBike mySuperBike = new SuperBike(2, "Ducati X600", 230.0);
+        mySuperBike.displayBikeInformation();
     }
 }
 
@@ -39,5 +41,11 @@ class SuperBike extends Bike {
         // the super keyword
         super(idNumber, modelName);
         this.maxSpeed = maxSpeed;
+    }
+
+    @Override
+    public void displayBikeInformation() {
+        super.displayBikeInformation();
+        System.out.println("Max Speed = " + this.maxSpeed);
     }
 }
