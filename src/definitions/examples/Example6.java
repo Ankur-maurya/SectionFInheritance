@@ -11,9 +11,10 @@ public class Example6 {
 
     }
 }
+
 class Bike {
-    private int idNumber;
     public String modelName;
+    private final int idNumber;
 
     public Bike(int idNumber, String modelName) {
         this.idNumber = idNumber;
@@ -27,5 +28,15 @@ class Bike {
     public void displayBikeInformation() {
         System.out.println("ID Number = " + this.idNumber);
         System.out.println("Model Name = " + this.modelName);
+    }
+}
+
+class SuperBike extends Bike {
+    private double maxSpeed;
+
+    public SuperBike(int idNumber, String modelName, double maxSpeed) {
+        // the super keyword
+        super(idNumber, modelName);
+        this.maxSpeed = maxSpeed;
     }
 }
