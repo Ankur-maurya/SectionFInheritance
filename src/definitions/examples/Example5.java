@@ -19,4 +19,7 @@ class A2 {
         j = x;
         k = y;
     }
+
+    public int m;
+
 }
