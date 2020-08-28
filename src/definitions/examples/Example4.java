@@ -12,9 +12,11 @@ public class Example4 {
 //        miniBus.methodA();
     }
 }
+
 final class Vehicle {
     float speed;
     float mileage;
+
     void methodA() { // 1
         System.out.println("Vehicle class method.");
     }
