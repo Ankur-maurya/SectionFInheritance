@@ -23,4 +23,9 @@ class Bike {
     public int getIdNumber() {
         return idNumber;
     }
+
+    public void displayBikeInformation() {
+        System.out.println("ID Number = " + this.idNumber);
+        System.out.println("Model Name = " + this.modelName);
+    }
 }
