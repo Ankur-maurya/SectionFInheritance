@@ -19,4 +19,13 @@ class A1 {
         i = x;
         j = y;
     }
+
+    public int sum(int x, int y) {
+        int sum = i + j;
+        return sum;
+    }
 }
+
+
+
+
