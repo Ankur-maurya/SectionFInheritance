@@ -13,6 +13,9 @@ public class Example5 {
         objectA2.setValues(4, 5);
         objectA2.m = 10;
         objectA2.displayA();
+        objectB2.p = 5;
+        objectB2.m = 6;
+        objectB2.displayB();
     }
 }
 class A2 {
