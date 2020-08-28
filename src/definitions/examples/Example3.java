@@ -34,12 +34,12 @@ class B1 extends A1 {
 }
 class C1 extends A1 {
     public int division(int x, int y) {
-        int division = x / y;
+        int division = i / j;
         return division;
     }
 
     public int difference(int x, int y) {
-        int difference = x - y;
+        int difference = i - j;
         return difference;
     }
 }
