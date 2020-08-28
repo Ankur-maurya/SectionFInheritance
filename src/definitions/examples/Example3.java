@@ -8,7 +8,9 @@ package definitions.examples;
 
 public class Example3 {
     public static void main(String[] args) {
-
+        B1 objectB1 = new B1();
+        objectB1.setValues(10, 9);
+        System.out.println(objectB1.product(4, 5));
     }
 }
 
@@ -32,6 +34,7 @@ class B1 extends A1 {
         return product;
     }
 }
+
 class C1 extends A1 {
     public int division(int x, int y) {
         int division = i / j;
