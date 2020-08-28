@@ -19,4 +19,8 @@ class Bike {
         this.idNumber = idNumber;
         this.modelName = modelName;
     }
+
+    public int getIdNumber() {
+        return idNumber;
+    }
 }
