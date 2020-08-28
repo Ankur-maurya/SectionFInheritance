@@ -33,7 +33,10 @@ class B1 extends A1 {
     }
 }
 class C1 extends A1 {
-
+    public int division(int x, int y) {
+        int division = x / y;
+        return division;
+    }
 }
 
 
