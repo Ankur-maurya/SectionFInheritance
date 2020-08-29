@@ -50,4 +50,10 @@ class FighterJet extends Jet {
         super(airlineID, maxSpeed);
         this.numberOfMissiles = numberOfMissiles;
     }
+
+    @Override
+    public void displayInformation() {
+        super.displayInformation();
+        System.out.println("numberOfMissiles = " + numberOfMissiles);
+    }
 }
