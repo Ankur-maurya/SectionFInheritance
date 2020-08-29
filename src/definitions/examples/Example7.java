@@ -43,6 +43,8 @@ class Jet extends Airplane {
     }
 }
 
-class FighterJet {
-
+class FighterJet extends Jet {
+    public FighterJet(int airlineID, int maxSpeed) {
+        super(airlineID, maxSpeed);
+    }
 }
