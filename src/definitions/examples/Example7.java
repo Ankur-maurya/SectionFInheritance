@@ -11,8 +11,9 @@ public class Example7 {
 
     }
 }
+
 class Airplane {
-    private int airplaneID;
+    private final int airplaneID;
 
     public Airplane(int airplaneID) {
         this.airplaneID = airplaneID;
@@ -26,6 +27,7 @@ class Airplane {
         System.out.println("airplaneID = " + airplaneID);
     }
 }
+
 class Jet extends Airplane {
     int maxSpeed;
 
@@ -39,4 +41,8 @@ class Jet extends Airplane {
         super.displayInformation();
         System.out.println("maxSpeed = " + maxSpeed);
     }
+}
+
+class FighterJet {
+
 }
