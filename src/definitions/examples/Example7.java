@@ -26,3 +26,6 @@ class Airplane {
         System.out.println("airplaneID = " + airplaneID);
     }
 }
+class Jet {
+
+}
