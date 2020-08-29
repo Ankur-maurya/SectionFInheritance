@@ -13,6 +13,7 @@ public class Example7 {
         Jet privateJet = new Jet(47, 410);
         privateJet.displayInformation();
         FighterJet rafael = new FighterJet(24, 480, 8);
+        rafael.displayInformation();
     }
 }
 
