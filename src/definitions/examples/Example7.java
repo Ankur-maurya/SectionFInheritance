@@ -13,4 +13,8 @@ public class Example7 {
 }
 class Airplane {
     private int airplaneID;
+
+    public Airplane(int airplaneID) {
+        this.airplaneID = airplaneID;
+    }
 }
