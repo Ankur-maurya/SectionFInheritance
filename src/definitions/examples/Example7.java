@@ -51,6 +51,11 @@ class Jet extends Airplane {
 class FighterJet extends Jet {
     private int numberOfMissiles;
 
+    public FighterJet(int numberOfMissiles) {
+        super(0, 0);
+        this.numberOfMissiles = numberOfMissiles;
+    }
+
     public FighterJet(int airlineID, int maxSpeed, int numberOfMissiles) {
         super(airlineID, maxSpeed);
         this.numberOfMissiles = numberOfMissiles;
