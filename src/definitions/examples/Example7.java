@@ -27,5 +27,5 @@ class Airplane {
     }
 }
 class Jet {
-
+    int maxSpeed;
 }
