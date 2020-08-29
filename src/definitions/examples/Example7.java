@@ -10,6 +10,7 @@ public class Example7 {
     public static void main(String[] args) {
         Airplane airbus = new Airplane(380);
         airbus.displayInformation();
+        Jet privateJet = new Jet(47, 410);
     }
 }
 
