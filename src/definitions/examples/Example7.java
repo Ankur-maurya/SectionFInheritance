@@ -44,6 +44,8 @@ class Jet extends Airplane {
 }
 
 class FighterJet extends Jet {
+    private int numberOfMissiles;
+
     public FighterJet(int airlineID, int maxSpeed) {
         super(airlineID, maxSpeed);
     }
