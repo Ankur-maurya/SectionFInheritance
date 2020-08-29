@@ -17,4 +17,8 @@ class Airplane {
     public Airplane(int airplaneID) {
         this.airplaneID = airplaneID;
     }
+
+    public int getAirplaneID() {
+        return airplaneID;
+    }
 }
