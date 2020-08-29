@@ -11,3 +11,6 @@ public class Example7 {
 
     }
 }
+class Airplane {
+
+}
