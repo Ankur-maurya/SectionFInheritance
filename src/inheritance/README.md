@@ -48,6 +48,7 @@ It acts as a private member for the package, hence it is sometimes also called
 It is the associating of a method call to a method body, done by the compiler.
 
 ### Static Binding
-
+When the binding is performed by the compiler, at the compile-time, it is known as
+`static binding` or `early binding`.
 
 ### Dynamic Binding
