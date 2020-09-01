@@ -19,7 +19,10 @@ class Bike {
 }
 
 class RacingBike extends Bike {
-
+    @Override
+    public void displaySpeed() {
+        System.out.println("RacingBike Speed: 200 km/h");
+    }
 }
 
 class MotoGPBike {
