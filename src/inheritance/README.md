@@ -44,3 +44,9 @@ by their child classes, even outside the package it is declared in.
 It acts as a private member for the package, hence it is sometimes also called
 `package-private` (=default).
 
+## Binding
+
+### Static Binding
+
+
+### Dynamic Binding
