@@ -15,7 +15,7 @@ public class DynamicMethodDispatch {
         MotoGPBike myGPBike = new MotoGPBike();
 //        myGPBike.displaySpeed();
 
-        Bike superBike = myBike;
+        Bike superBike = myRacingBike;
         superBike.displaySpeed();
     }
 }
