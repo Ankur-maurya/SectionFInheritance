@@ -16,6 +16,10 @@ class Bike {
     public void displaySpeed() {
         System.out.println("Bike Speed: 120 km/h");
     }
+
+    public void displayBikeInformation() {
+        System.out.println("Bike class");
+    }
 }
 
 class RacingBike extends Bike {
