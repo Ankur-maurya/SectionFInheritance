@@ -25,6 +25,6 @@ class RacingBike extends Bike {
     }
 }
 
-class MotoGPBike {
+class MotoGPBike extends RacingBike {
 
 }
