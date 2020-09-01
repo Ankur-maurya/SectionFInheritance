@@ -45,6 +45,7 @@ It acts as a private member for the package, hence it is sometimes also called
 `package-private` (=default).
 
 ## Binding
+It is the associating of a method call to a method body, done by the compiler.
 
 ### Static Binding
 
