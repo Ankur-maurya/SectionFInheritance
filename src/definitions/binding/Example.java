@@ -13,7 +13,9 @@ public class Example {
 }
 
 class A {
-
+    public void methodA() {
+        System.out.println("method of class A");
+    }
 }
 
 class B {
