@@ -18,7 +18,7 @@ class Bike {
     }
 
     public void displayBikeInformation() {
-        System.out.println("Bike class");
+        System.out.println("Bike class.");
     }
 }
 
@@ -26,6 +26,10 @@ class RacingBike extends Bike {
     @Override
     public void displaySpeed() {
         System.out.println("RacingBike Speed: 200 km/h");
+    }
+
+    public void displayRacingBikeInformation() {
+        System.out.println("RacingBike class.");
     }
 }
 
