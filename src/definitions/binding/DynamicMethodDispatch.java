@@ -26,5 +26,8 @@ class RacingBike extends Bike {
 }
 
 class MotoGPBike extends RacingBike {
-
+    @Override
+    public void displaySpeed() {
+        System.out.println("MotoGPBike Speed: 300 km/h");
+    }
 }
