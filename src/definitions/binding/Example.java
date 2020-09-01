@@ -19,5 +19,7 @@ class A {
 }
 
 class B {
-
+    public void methodB() {
+        System.out.println("method of class B");
+    }
 }
