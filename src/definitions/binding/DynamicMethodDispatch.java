@@ -10,6 +10,7 @@ public class DynamicMethodDispatch {
     public static void main(String[] args) {
         Bike myBike = new Bike();
         myBike.displaySpeed();
+        RacingBike myRacingBike = new RacingBike();
     }
 }
 
