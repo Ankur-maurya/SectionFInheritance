@@ -52,3 +52,6 @@ When the binding is performed by the compiler, at the compile-time, it is known 
 `static binding` or `early binding`.
 
 ### Dynamic Binding
+Here, the compiler is not able to resolve a method call by itself at the compile-time.
+It is also known as `late-binding`.
+Ex - Method Overriding.
