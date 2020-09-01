@@ -15,8 +15,9 @@ public class DynamicMethodDispatch {
         MotoGPBike myGPBike = new MotoGPBike();
 //        myGPBike.displaySpeed();
 
-        Bike superBike = myRacingBike;
+        Bike superBike = myGPBike;
         superBike.displaySpeed();
+        superBike.displayBikeInformation();
     }
 }
 
@@ -36,7 +37,7 @@ class RacingBike extends Bike {
         System.out.println("RacingBike Speed: 200 km/h");
     }
 
-    public void displayRacingBikeInformation() {
+    public void displayBikeInformation() {
         System.out.println("RacingBike class.");
     }
 }
@@ -47,7 +48,7 @@ class MotoGPBike extends RacingBike {
         System.out.println("MotoGPBike Speed: 300 km/h");
     }
 
-    public void displayMotoGPBikeInformation() {
+    public void displayBikeInformation() {
         System.out.println("MotoGPBike class.");
     }
 }
