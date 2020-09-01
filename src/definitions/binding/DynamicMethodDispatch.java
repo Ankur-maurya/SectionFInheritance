@@ -38,4 +38,8 @@ class MotoGPBike extends RacingBike {
     public void displaySpeed() {
         System.out.println("MotoGPBike Speed: 300 km/h");
     }
+
+    public void displayMotoGPBikeInformation() {
+        System.out.println("MotoGPBike class.");
+    }
 }
