@@ -15,3 +15,7 @@ public class Example {
 class A {
 
 }
+
+class B {
+
+}
