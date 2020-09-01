@@ -8,7 +8,10 @@ package definitions.binding;
 
 public class DynamicBinding {
     public static void main(String[] args) {
-
+        Airplane myAirplane = new Airplane();
+        myAirplane.display();
+        Jet myJet = new Jet();
+        myJet.display();
     }
 }
 
