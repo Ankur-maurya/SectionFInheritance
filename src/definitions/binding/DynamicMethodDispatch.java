@@ -13,7 +13,9 @@ public class DynamicMethodDispatch {
 }
 
 class Bike {
-
+    public void displaySpeed() {
+        System.out.println("Bike Speed: 120 km/h");
+    }
 }
 
 class RacingBike {
