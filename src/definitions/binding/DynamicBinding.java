@@ -13,12 +13,16 @@ public class DynamicBinding {
         // store the reference value of the object in a
         // reference variable of its parent class.
         myAirplane.display();
+        myAirplane.showFuelStatus();
     }
 }
 
 class Airplane {
     public void display() {
         System.out.println("Airplane class.");
+    }
+
+    public void showFuelStatus() {
     }
 }
 
@@ -28,6 +32,7 @@ class Jet extends Airplane {
         System.out.println("Jet class.");
     }
 
+    @Override
     public void showFuelStatus() {
         System.out.println("Sufficient Fuel Remaining.");
     }
