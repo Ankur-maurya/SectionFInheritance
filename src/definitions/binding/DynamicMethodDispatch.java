@@ -9,11 +9,14 @@ package definitions.binding;
 public class DynamicMethodDispatch {
     public static void main(String[] args) {
         Bike myBike = new Bike();
-        myBike.displaySpeed();
+//        myBike.displaySpeed();
         RacingBike myRacingBike = new RacingBike();
-        myRacingBike.displaySpeed();
+//        myRacingBike.displaySpeed();
         MotoGPBike myGPBike = new MotoGPBike();
-        myGPBike.displaySpeed();
+//        myGPBike.displaySpeed();
+
+        Bike superBike = myBike;
+        superBike.displaySpeed();
     }
 }
 
