@@ -13,7 +13,9 @@ public class Example1 {
 }
 
 class Human {
-
+    public void talk() {
+        System.out.println("I am human.");
+    }
 }
 
 class Student extends Human {
