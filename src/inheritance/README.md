@@ -66,3 +66,15 @@ reference variable of its parent class.
 - Each child class just has to declare its own version of the overridden method.  
 - The compiler will use Dynamic Method Dispatch to choose the correct version of the
 overridden method according to the reference value of the object.
+
+We already know that in Java, we have 4 type of program units:
+1. Class (i. a definition class, and ii. an execution class).
+2. Abstract Class.
+3. Interface.
+4. Enum.
+
+## Abstract Classes 
+- 
+
+## Interfaces
+- 
