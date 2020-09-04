@@ -12,16 +12,18 @@ public class Example1 {
     }
 }
 
-class Human {
-    public void talk() {
-        System.out.println("I am human.");
-    }
+abstract class Human { // this is now an abstract class.
+    abstract public void talk();
+    // this is now an abstract method.
+    // abstract : something that is not properly defined
+    // abstract method : a method whose body is not properly defined
+    // implementing (overriding an abstract method)
 }
 
 class Student extends Human {
     @Override
     public void talk() {
-        System.out.println("I am a Student.");
+
     }
 }
 
