@@ -6,7 +6,7 @@
  * */
 package interfaces;
 
-public interface Bank {
+public interface Example {
 
     // 1. Fields
     // i. all the fields declared inside an interface must be initialized.
